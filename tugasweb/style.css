@@ -1,0 +1,172 @@
+*html {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+nav {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Segoe UI',sans-serif;
+    color: black;
+    font-weight: 600;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid transparent;
+    background: linear-gradient(blue);
+    cursor: pointer;
+}
+ nav ul li a:hover {
+    background-color: rgb(117, 117, 238);
+    border-bottom: 1px solid blue;
+ }
+
+ nav ul li a:nth-child(1){
+    width: 90px;
+ }
+
+ nav ul li a:nth-child(2){
+    width: 110px;
+ }
+
+ nav ul li a:nth-child(3){
+    width: 100px;
+ }
+
+ nav ul li a:nth-child(4){
+    width: 160px;
+ }
+
+ nav ul li a:nth-child(5){
+    width: 120px;
+ }
+
+ nav.start-about,a:nth-child(2):hover~.animation{
+    width: 90px;
+    left: 0;
+    background-color: blue;
+ }
+
+ nav .start-about, a:nth-child(2):hover~.animation{
+    width: 110px;
+    left: 100px;
+    background-color: blue;
+ }
+
+ nav .start-about, a:nth-child(3):hover~.animation{
+    width: 100px;
+    left: 210px;
+    background-color: blue;
+ }
+
+ nav .start-about, a:nth-child(4):hover~.animation{
+    width: 160px;
+    left: 310px;
+    background-color: blue;
+ }
+
+ nav .start-about, a:nth-child(5):hover~.animation{
+    width: 120px;
+    left: 470px;
+    background-color: blue;
+ }
+
+ body{
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color: white
+ }
+
+ span{
+    color: blue;
+ }
+
+ .container{
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap: 1rem;
+ }
+
+ 
+ h1{
+    display: grid;
+    width: 100%;
+    font-size: 60px;
+    margin: 50px;
+    text-align-last: left;
+    font-family: 'Times New Roman';
+ }
+ p {
+    display: grid;
+    width: 100%;
+    font-size: 20px;
+    margin: 40px;
+    text-align: left;
+    font-family: 'Times New Roman';
+ }
+ .body1 {
+    display: grid;
+    justify-content: right;
+    size: 70px;
+    width: 240px;
+    margin: 140px;
+
+ }
+ .body2 {
+    width: 240px;
+    margin-top: 20px;
+    margin: 110px;
+ }
+ .container{
+   width: 80%;
+   margin: none;
+ }
+ footer{
+   background-color: black;
+   padding: 0px ;
+   color: white;
+ }
+ .grid{
+   display: flex;
+   justify-content: space-between;
+ }
+ .item{
+   width: none;
+   padding: 20px;
+   text-align: center;
+   position: relative;
+ }
+ .item h4{  
+   margin-top: 0;
+   margin-right: 100px;
+   margin-bottom: 0px;
+   padding: 10px;
+   font-size: medium;
+ }
+ .item p{
+   margin: 20px;
+   
+ }
+ .copyright{
+   margin: 20px;
+   font-size: small;
+   text-align: center;
+ }
